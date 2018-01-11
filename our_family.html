@@ -15,8 +15,10 @@
   <meta charset="utf-8">
   <meta charset="viewport" content="width=device-width,initial-scale=1.0">
 </head>
-<body>
   <style>
+  body{
+    margin: 0
+  }
     a {
         color:black;
         text-decoration: none;
@@ -24,9 +26,28 @@
     h1{
      font-size: 45px;
      text-align: center;
+     border-bottom: 1px solid black;
+     margin: 0;
+     padding: 20px;
+   }
+   #div ol{
+     border-right: 1px solid black;
+     width: 100px;
+     margin: 0;
+     padding: 20px;
+     padding-left: 37px;
+   }
+   #div{
+     display: grid;
+     grid-template-columns: 150px 1fr;
+   }
+   #article{
+     padding-left: 30px
    }
   </style>
   <h1><a href="our_family.html">member</a></h1>
+</body>
+  <div id="div">
   <ol>
     <li><a href="d.html">dad</a></li>
     <li><a href="m.html">mom</a></li>
@@ -35,12 +56,14 @@
     <li><a href="t.html">ttun</a></li>
     <li><a href="f.html">fish</a></li>
   </ol>
+  <div id=article>
   <h2>member</h2>
+  <img src="가족.jpg" width="400px">
   <p>We have three people in our family, and many animals.
     And each member lives one by one.
     Their name comes from the table of contents.
     Let's see each other one by one.</p>
-<img src="family.jpg" width="100%">
+  </div>
     <p><div id="disqus_thread"></div>
 <script>
 
