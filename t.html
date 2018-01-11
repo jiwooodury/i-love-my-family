@@ -10,14 +10,16 @@
 
   gtag('config', 'UA-112173916-1');
 </script>
-
+<audio src="음악.mp3" controls="controls" autoplay="autoplay"></audio>
   <title>our family</title>
-  <audio src="음악.mp3" controls="controls" autoplay="autoplay"></audio>
   <meta charset="utf-8">
   <meta charset="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
   <style>
+  body{
+    margin: 0
+  }
     a {
         color:black;
         text-decoration: none;
@@ -25,9 +27,27 @@
     h1{
      font-size: 45px;
      text-align: center;
+     border-bottom: 1px solid black;
+     margin: 0;
+     padding: 20px;
+   }
+   ol{
+     border-right: 1px solid black;
+     width: 100px;
+     margin: 0;
+     padding: 20px;
+     padding-left: 37px;
+   }
+   #div{
+     display: grid;
+     grid-template-columns: 150px 1fr;
+   }
+   #article{
+     padding-left: 30px
    }
   </style>
   <h1><a href="our_family.html">member</a></h1>
+  <div id="div">
   <ol>
     <li><a href="d.html">dad</a></li>
     <li><a href="m.html">mom</a></li>
@@ -36,11 +56,13 @@
     <li><a href="t.html">ttun</a></li>
     <li><a href="f.html">fishes</a></li>
   </ol>
+  <div id=article>
   <h2>ttunttun</h2>
-  <p><img src="ttun.png"alt="kindly dog"width="350px"><p>
-  <p>The name of this dog is ttunttun.
-    In fact, this puppy has been rescued, so I do not even know her hometown.
-    She just like to eat and sleep.
-    It looks very nice, but the look looks sad.</p>
-    </body>
+    <p><img src="ttun.png"alt="kindly dog"width="350px"></p>
+      <p>The name of this dog is ttunttun.
+        In fact, this puppy has been rescued, so I do not even know her hometown.
+        She just like to eat and sleep.
+        It looks very nice, but the look looks sad.</p>
+    </div>
+  </body>
 </html>
