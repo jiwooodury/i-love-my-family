@@ -2,7 +2,9 @@ body{
   margin: 0;
 }
   a:hover{
-  color: green
+  color: green;
+}
+a{
   color:black;
   text-decoration: none;
   }
