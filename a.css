@@ -31,11 +31,12 @@ a{
  }
  @media(max-width:800px){
    #div{
-  display: block;}
+  display: block;
+  }
   #div ol{
     border-right: none;
   }
   h1{
-     border-bottom:none;
+     border-bottom: none;
    }
  }
