@@ -15,6 +15,14 @@ a{
    margin: 0;
    padding: 20px;
  }
+ @media(max-width:800px){
+   #div{
+  display: grid;}
+  ol{
+    border-right: none;}
+  h1{
+     border-bottom:none;}
+ }
  #div ol{
    border-right: 1px solid black;
    width: 100px;
