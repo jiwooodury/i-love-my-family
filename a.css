@@ -30,7 +30,7 @@ a{
    padding-left: 30px;
  }
 
- @media(min-width:800px){
+ @media(max-width:800px){
    #div{
   display: block;}
   #div ol{
