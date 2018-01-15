@@ -30,9 +30,9 @@ a{
    padding-left: 30px;
  }
 
- @media(min-width:800px){
+ @media(max-width:800px){
    #div{
-  display: grid;}
+  display: block;}
   ol{
     border-right: none;
   }
